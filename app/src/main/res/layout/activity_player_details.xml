@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerDetails"
+    android:orientation="vertical"
+    android:background="#2A4C75"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E22A0"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstDetailImageId"
+            android:src="@drawable/mashrafe"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailsHeadingId"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1C3C2E"
+            android:layout_centerInParent="true"
+            android:text="Mashrafee"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/tigerbackground"
+            android:id="@+id/lastDetailImageId"
+            />
+
+    </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/detailId"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:textColor="#690546"
+                />
+
+        </ScrollView>
+
+</LinearLayout>
